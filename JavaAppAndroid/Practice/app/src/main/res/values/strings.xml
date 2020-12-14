@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Practice</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="one_screen">screen_with_buttons</string>
+    <string name="two_screen">screen_with_choose</string>
+    <string name="three_screen">screen_with_animal</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="select_eat">Выберите еду</string>
+    <string name="out">С собой?</string>
+    <string name="vopper">Воппер</string>
+    <string name="potato">Картошка фри</string>
+    <string name="drink">Пепси/Фанта/Спрайт</string>
+    <string name="souse">Соус</string>
+    <string name="desert">Десерт</string>
+    <string name="know_more">KNOW MORE</string>
+    <string name="Cat">Котики это</string>
+    <string name="About_cats">Кошка — домашнее животное, одно из наиболее популярных «животных-компаньонов». Кошки — млекопитающие и плотоядные животные. За способность уничтожать грызунов люди ценят кошек около 10 000 тысяч лет. Являясь одиночным охотником на грызунов и других мелких животных, кошка — социальное животное, использующее для общения широкий диапазон звуковых сигналов, а также феромоны и движения тела. В настоящее время в мире насчитывается около 600 млн домашних кошек.</string>
+</resources>

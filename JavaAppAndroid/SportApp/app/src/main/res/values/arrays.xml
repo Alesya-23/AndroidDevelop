@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="options">options
+        <item>Спорт</item>
+        <item>Магазин</item>
+        <item>Контакты</item>
+    </string-array>
+</resources>

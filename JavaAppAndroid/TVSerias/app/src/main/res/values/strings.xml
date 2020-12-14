@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TVSerias App</string>
+    <string name="text_button">Выбрать сериал</string>
+    <string name="TV">Сериал</string>
+
+    <string-array name="choose_sereal">
+        <item>Комедия</item>
+        <item>Фентези</item>
+        <item>Ужасы</item>
+        <item>Фантастика</item>
+        <item>Детектив</item>
+    </string-array>
+</resources>

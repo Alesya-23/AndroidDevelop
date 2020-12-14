@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".EducationFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Мои планы - это стать профессионалом своего дела, мне нравится мобильная разработка и я бы хотела реализовать себя там. Хочу попасть на стажировку и к концу 3 курса работать. Хочу сдать на права, скоро экзамен. Хочу реализовать проект со своей командой научного сектора, ребята крутые! Хочу найти единамышленников-новичков в мобильной разработке, чтобы попробовать что-то сделать вместе!)"
+        android:textColor="#1D122E"
+        android:layout_margin="10dp"
+        android:textSize="18sp" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/plans_my"/>
+</LinearLayout>

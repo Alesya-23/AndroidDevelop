@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:columnCount="2"
+    android:rowCount="7"
+    tools:context=".FoodChoose">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_marginBottom="10dp"
+        android:text="@string/select_eat" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:textOff="@string/no"
+        android:textOn="@string/yes"
+        android:id="@+id/button_choose"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_marginBottom="10dp"
+        android:text="@string/out" />
+
+    <CheckBox
+        android:layout_row="2"
+        android:layout_column="0"
+        android:text="@string/vopper" />
+
+    <CheckBox
+        android:layout_row="3"
+        android:layout_column="0"
+        android:text="@string/potato"/>
+
+    <CheckBox
+        android:layout_row="4"
+        android:layout_column="0"
+        android:text="@string/drink"/>
+
+    <CheckBox
+        android:layout_row="5"
+        android:layout_column="0"
+        android:text="@string/souse"/>
+
+    <CheckBox
+        android:layout_row="6"
+        android:layout_column="0"
+        android:text="@string/desert"/>
+
+
+</GridLayout>

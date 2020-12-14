@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">RecycleApp</string>
+    <string name="text_app">Приложение запущено впервые!</string>
+    <string name="click_me">Нажми на меня</string>
+    <string name="click_exit">Вывод</string>
+</resources>

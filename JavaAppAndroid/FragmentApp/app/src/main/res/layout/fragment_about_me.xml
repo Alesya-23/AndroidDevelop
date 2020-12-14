@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AboutMeFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="158dp"
+        android:layout_margin="40dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="4dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/me" />
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:layout_toEndOf="@+id/item_image"
+            android:text="Демянчук Алеся"
+            android:textColor="#1D122E"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Программная инженерия"
+        android:textColor="#1D122E"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Учусь в УлГТУ, моя специальность мне нравится, классные преподаватели и крутые ребята сокурсники. Помимо учёбы я состою в творческой группе факультета, а также руковожу Научным сектором студ совета. Недавно мы с командой участвовали в Турнире трёх наук. Соревнование было увлекательным, дискуссии, вопросы, необычные решения - обязательно поучаствуем ещё раз! Также я люблю петь, танцевать, читать, печь кексики, кататься на велосипеде. Обожаю группу Би-2, даже была на их концерте, яркие впечатления остались после него!"
+        android:textColor="#1D122E"
+        android:layout_margin="10dp"
+        android:textSize="18sp" />
+
+</LinearLayout>

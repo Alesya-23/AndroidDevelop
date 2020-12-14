@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".EducationFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Контакты:"
+        android:textColor="#1D122E"
+        android:layout_margin="10dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Почта: aleca2002@yandex.ru"
+        android:textColor="#1D122E"
+        android:layout_margin="10dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Страничка ВК: https://vk.com/alesya_demyanchuk"
+        android:textColor="#1D122E"
+        android:layout_margin="10dp"
+        android:textSize="18sp" />
+
+</LinearLayout>
